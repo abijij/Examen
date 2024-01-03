@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04aef2fe-fcb9-47ab-94d2-46d875317da7" name="Changes" comment="Pregunta tres finalizada">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pregunta_4/Respuesta_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pregunta_5/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pregunta_5/Respuesta_5.java" afterDir="false" />
+    <list default="true" id="04aef2fe-fcb9-47ab-94d2-46d875317da7" name="Changes" comment="Pregunta cuatro y cinco finalizadas">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pregunta_6/Respuesta_6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pregunta_7/Respuesta_7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704307928417</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Pregunta cuatro y cinco finalizadas">
+      <created>1704313869726</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1704313869726</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -95,6 +101,7 @@
     <MESSAGE value="Siguiente Repuesta" />
     <MESSAGE value="Pregunta dos finalizada" />
     <MESSAGE value="Pregunta tres finalizada" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pregunta tres finalizada" />
+    <MESSAGE value="Pregunta cuatro y cinco finalizadas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pregunta cuatro y cinco finalizadas" />
   </component>
 </project>
