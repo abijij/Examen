@@ -1,9 +1,9 @@
 package Pregunta_5;
 
 public class Persona {
-    // Atributos privados
-    private String nombre;
-    private int edad;
+    // Atributos protegidos
+    protected String nombre;
+    protected int edad;
 
     // Constructor
     public Persona(String nombre, int edad) {
@@ -26,7 +26,7 @@ public class Persona {
     }
 
     public void setEdad(int edad) {
-        if (edad > 0) {  // Validación para asegurar una edad no negativa
+        if (edad > 0) {
             this.edad = edad;
         } else {
             System.out.println("Edad no válida. Debe ser un valor positivo.");

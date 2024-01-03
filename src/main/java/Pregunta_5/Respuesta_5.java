@@ -11,16 +11,14 @@ public class Respuesta_5 {
         //a sus miembros
         Scanner scanner = new Scanner(System.in);
 
-
         while (true) {
             String nombre = null;
             int edad = 0;
             int intentosMaximos = 3;
             boolean intentoExitoso = false;
 
-
             for (int intento = 1; intento <= intentosMaximos; intento++) {
-                System.out.print("Intento:"  + intento + " \nIngrese el nombre: ");
+                System.out.print("Intento " + intento + "\nIngrese el nombre: ");
                 nombre = scanner.nextLine();
 
                 if (!nombre.matches("[a-zA-Z]+")) {
@@ -28,7 +26,7 @@ public class Respuesta_5 {
                     continue;
                 }
 
-                System.out.print("Intento: " + intento + "\nIngrese la edad: ");
+                System.out.print("Intento " + intento + "\nIngrese la edad: ");
 
                 if (scanner.hasNextInt()) {
                     edad = scanner.nextInt();
@@ -45,19 +43,18 @@ public class Respuesta_5 {
                 }
             }
 
-
             if (!intentoExitoso) {
                 System.out.println("\nNúmero de intentos alcanzados. Reiniciando proceso.\n");
                 continue;  // Reiniciar
             }
 
+            Alumno alumno1 = new Alumno(nombre, edad, "Informática");
 
-            Persona persona1 = new Persona(nombre, edad);
-
-            // Imprimir los datos de la persona
-            System.out.println("\nDatos de la persona:");
-            System.out.println("Nombre: " + persona1.getNombre());
-            System.out.println("Edad: " + persona1.getEdad());
+            // Imprimir los datos del alumno
+            System.out.println("\nDatos del alumno:");
+            System.out.println("Nombre: " + alumno1.getNombre());
+            System.out.println("Edad: " + alumno1.getEdad());
+            System.out.println("Carrera: " + alumno1.getCarrera());
 
             break;
         }

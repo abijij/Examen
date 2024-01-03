@@ -1,7 +1,9 @@
 package Pregunta_8;
 
 import java.util.Scanner;
-
+//Define una interfaz llamada Figura con un método abstracto calcularPerimetro.
+// Luego, implementa esta interfaz en las clases Circulo y Cuadrado, proporcionando
+// la lógica adecuada para calcular el perímetro de cada figura.
 public class Respuesta_8 {
     public static void main(String[] args) {
 
